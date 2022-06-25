@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br>");
+        document.write("<br>");        
+    }
+
+    function mostra(texto){
+        document.write(texto);
+        pulaLinha();
+    }
+
+    var idadeFilipe = 34;
+    var idadeCarol = 33;
+    var idadeHeloisa = 3
+    var mediaFamilia = (idadeCarol + idadeFilipe + idadeHeloisa) / 3
+
+    mostra("A média da minha família é: " + Math.round(mediaFamilia) + " usando Math.round()");
+    document.write("Quantas linhas pular!");
+
+</script>

@@ -1,0 +1,32 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br>");
+        document.write("<br>");        
+    }
+
+    function mostra(texto){
+        document.write(texto);
+        pulaLinha();
+    }
+    
+    var multiplicador = 1;
+
+    mostra("Repetição com while");
+
+    while(multiplicador <= 10){
+        mostra(7 * multiplicador);
+        multiplicador++;
+    }
+
+    mostra("Fim!!");
+
+    mostra("Repetição com For");
+
+    for(multiplicador = 1; multiplicador <= 10; multiplicador++){
+        mostra(7 * multiplicador);
+    }
+
+</script>
